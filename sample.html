@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Digital System Colors Sample</title>
+    <link rel="stylesheet" href="dist/colors.css">
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+
+      .sample {
+        color: #fff;
+        padding: 10px;
+        margin: 0
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Digital System Colors</h1>
+
+    <h2>Sea</h2>
+    <p class="sample bg-sea-50">sea 50</p>
+    <p class="sample bg-sea-100">sea 100</p>
+    <p class="sample bg-sea-200">sea 200</p>
+    <p class="sample bg-sea-300">sea 300</p>
+    <p class="sample bg-sea-400">sea 400</p>
+    <p class="sample bg-sea-500">sea 500</p>
+    <p class="sample bg-sea-600">sea 600</p>
+    <p class="sample bg-sea-700">sea 700</p>
+    <p class="sample bg-sea-800">sea 800</p>
+    <p class="sample bg-sea-900">sea 900</p>
+    <hr />
+
+    <h2>Sumi</h2>
+    <p class="sample bg-sumi-50">sumi 50</p>
+    <p class="sample bg-sumi-100">sumi 100</p>
+    <p class="sample bg-sumi-200">sumi 200</p>
+    <p class="sample bg-sumi-300">sumi 300</p>
+    <p class="sample bg-sumi-400">sumi 400</p>
+    <p class="sample bg-sumi-500">sumi 500</p>
+    <p class="sample bg-sumi-600">sumi 600</p>
+    <p class="sample bg-sumi-700">sumi 700</p>
+    <p class="sample bg-sumi-800">sumi 800</p>
+    <p class="sample bg-sumi-900">sumi 900</p>
+    <hr />
+
+    <h2>Forest</h2>
+    <p class="sample bg-forest-50">forest 50</p>
+    <p class="sample bg-forest-100">forest 100</p>
+    <p class="sample bg-forest-200">forest 200</p>
+    <p class="sample bg-forest-300">forest 300</p>
+    <p class="sample bg-forest-400">forest 400</p>
+    <p class="sample bg-forest-500">forest 500</p>
+    <p class="sample bg-forest-600">forest 600</p>
+    <p class="sample bg-forest-700">forest 700</p>
+    <p class="sample bg-forest-800">forest 800</p>
+    <p class="sample bg-forest-900">forest 900</p>
+    <hr />
+
+    <h2>Wood</h2>
+    <p class="sample bg-wood-50">wood 50</p>
+    <p class="sample bg-wood-100">wood 100</p>
+    <p class="sample bg-wood-200">wood 200</p>
+    <p class="sample bg-wood-300">wood 300</p>
+    <p class="sample bg-wood-400">wood 400</p>
+    <p class="sample bg-wood-500">wood 500</p>
+    <p class="sample bg-wood-600">wood 600</p>
+    <p class="sample bg-wood-700">wood 700</p>
+    <p class="sample bg-wood-800">wood 800</p>
+    <p class="sample bg-wood-900">wood 900</p>
+    <hr />
+    
+    
+    <h2>Sun</h2>
+    <p class="sample bg-sun-50">sun 50</p>
+    <p class="sample bg-sun-100">sun 100</p>
+    <p class="sample bg-sun-200">sun 200</p>
+    <p class="sample bg-sun-300">sun 300</p>
+    <p class="sample bg-sun-400">sun 400</p>
+    <p class="sample bg-sun-500">sun 500</p>
+    <p class="sample bg-sun-600">sun 600</p>
+    <p class="sample bg-sun-700">sun 700</p>
+    <p class="sample bg-sun-800">sun 800</p>
+    <p class="sample bg-sun-900">sun 900</p>
+    <hr />
+    
+    <p>Copy right @ Digital System 2023</p>
+
+    <script src="dist/colors.js"></script>
+    <script>
+      (function(colors) {
+        Object.keys(colors.red).forEach(function(key) {
+          var message = '%c Red ' + key.toUpperCase() + ' ';
+          var style = 'background: ' +  colors.sea[key] + '; color: #fff';
+          console.log(message, style);
+        });
+      })(window.digitalSystemColors);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "name": "digital-system-color",
+  "version": "1.0.0",
+  "main": [
+    "./dist/colors.css",
+    "./dist/colors.js"
+  ],
+  "homepage": "https://github.com/digitalsystem2023/digital-system-color",
+  "authors": [
+    "digitalsystem2023 <digitalsystem2023@gmail.com>"
+  ],
+  "description": "Colors of Digital System Design made available to coders",
+  "keywords": [
+    "colors",
+    "palette",
+    "design",
+    "css",
+    "sass",
+    "scss",
+    "less",
+    "stylus",
+    "javascript"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
